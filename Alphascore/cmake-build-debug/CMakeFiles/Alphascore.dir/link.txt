@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Alphascore.dir/main.cpp.o  -o Alphascore 

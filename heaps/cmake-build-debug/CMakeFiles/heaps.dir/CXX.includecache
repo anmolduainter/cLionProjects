@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anmol/CLionProjects/heaps/Heap.h
+bits/stdc++.h
+-
+
+/home/anmol/CLionProjects/heaps/main.cpp
+bits/stdc++.h
+-
+Heap.h
+/home/anmol/CLionProjects/heaps/Heap.h
+

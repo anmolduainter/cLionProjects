@@ -1,0 +1,3 @@
+/home/anmol/CLionProjects/twonplus2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anmol/CLionProjects/twonplus2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anmol/CLionProjects/twonplus2/cmake-build-debug/CMakeFiles/twonplus2.dir

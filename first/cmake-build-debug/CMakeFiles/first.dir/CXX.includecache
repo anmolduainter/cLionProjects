@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anmol/CLionProjects/first/bst.cpp
+bst.h
+/home/anmol/CLionProjects/first/bst.h
+
+/home/anmol/CLionProjects/first/bst.h
+iostream
+-
+queue
+-
+
+/home/anmol/CLionProjects/first/main.cpp
+iostream
+-
+bst.h
+/home/anmol/CLionProjects/first/bst.h
+

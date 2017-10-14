@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anmol/CLionProjects/Recursion/LexicalAnalyzer/main.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+

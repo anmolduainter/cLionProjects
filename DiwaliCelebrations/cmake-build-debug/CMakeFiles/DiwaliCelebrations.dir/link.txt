@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/DiwaliCelebrations.dir/main.cpp.o  -o DiwaliCelebrations 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/LowerUpper.dir/main.cpp.o  -o LowerUpper 

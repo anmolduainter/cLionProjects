@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/SpiralAnti.dir/main.cpp.o  -o SpiralAnti 

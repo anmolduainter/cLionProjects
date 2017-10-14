@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/AsciiSubsequences.dir/main.cpp.o  -o AsciiSubsequences 

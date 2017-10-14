@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/BinaryToDecimal.dir/main.cpp.o  -o BinaryToDecimal 

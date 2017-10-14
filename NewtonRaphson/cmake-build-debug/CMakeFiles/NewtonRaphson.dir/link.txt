@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/NewtonRaphson.dir/main.cpp.o  -o NewtonRaphson 

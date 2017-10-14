@@ -1,0 +1,3 @@
+/home/anmol/CLionProjects/01KanpSack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anmol/CLionProjects/01KanpSack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anmol/CLionProjects/01KanpSack/cmake-build-debug/CMakeFiles/01KanpSack.dir

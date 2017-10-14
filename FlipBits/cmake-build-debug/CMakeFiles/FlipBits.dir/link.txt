@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/FlipBits.dir/main.cpp.o  -o FlipBits 

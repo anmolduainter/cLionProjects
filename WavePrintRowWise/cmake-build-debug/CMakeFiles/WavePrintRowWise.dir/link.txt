@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/WavePrintRowWise.dir/main.cpp.o  -o WavePrintRowWise 

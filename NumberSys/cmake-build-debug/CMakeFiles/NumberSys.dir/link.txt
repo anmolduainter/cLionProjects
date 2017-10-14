@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/NumberSys.dir/main.cpp.o  -o NumberSys 

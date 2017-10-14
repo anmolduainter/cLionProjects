@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/AsciiSub.dir/main.cpp.o  -o AsciiSub 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Spiral.dir/main.cpp.o  -o Spiral 

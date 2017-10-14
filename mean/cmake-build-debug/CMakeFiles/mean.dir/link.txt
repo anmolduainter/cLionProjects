@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mean.dir/main.cpp.o  -o mean 

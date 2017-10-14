@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/UltraFastMathematics.dir/main.cpp.o  -o UltraFastMathematics 
