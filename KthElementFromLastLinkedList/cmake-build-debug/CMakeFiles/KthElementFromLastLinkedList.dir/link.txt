@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/KthElementFromLastLinkedList.dir/main.cpp.o  -o KthElementFromLastLinkedList 

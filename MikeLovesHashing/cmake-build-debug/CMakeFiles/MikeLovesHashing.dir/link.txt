@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/MikeLovesHashing.dir/main.cpp.o  -o MikeLovesHashing 

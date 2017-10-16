@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/PrintArrayListTree.dir/main.cpp.o  -o PrintArrayListTree 

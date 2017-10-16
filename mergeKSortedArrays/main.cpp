@@ -1,12 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+unsigned int col,row;
+
 class Element{
 public:
-    int d;
-    int i;
-    int j;
-    Element(int d,int i,int j){
+    unsigned int d;
+    unsigned int i;
+    unsigned int j;
+    Element(unsigned int d,unsigned int i,unsigned int j){
         this->d=d;
         this->i=i;
         this->j=j;
@@ -20,17 +22,17 @@ public:
     }
 };
 
-void Sort(int a[][4]){
+void Sort(unsigned int a[][250]){
 
     priority_queue<Element,vector<Element>,Compare> p;
-    for (int k = 0; k < 3 ; ++k) {
+    for (unsigned int k = 0; k < row ; ++k) {
         p.push(Element(a[k][0],k,0));
     }
-    for (int i = 0; i < 12 ; ++i) {
+    for (unsigned int i = 0; i < (col*row) ; ++i) {
         Element e=p.top();
         cout<<p.top().d<<" ";
         p.pop();
-        if (e.j+1>=4){
+        if (e.j+1>=col){
             p.push(Element(INT_MAX,e.i,e.j+1));
         }
         else{
@@ -42,10 +44,16 @@ void Sort(int a[][4]){
 
 int main(){
 
-    int arr[3][4] = { {1, 3, 5, 7},
-                    {2, 4, 6, 8},
-                    {0, 9, 10, 11}} ;
+    cin>>row>>col;
 
-    Sort(arr);
+    unsigned int a[row][250];
+
+    for (unsigned int i = 0; i < row ; ++i) {
+        for (unsigned int j = 0; j < col ; ++j) {
+            cin>>a[i][j];
+        }
+    }
+
+    Sort(a);
     return 0;
 }

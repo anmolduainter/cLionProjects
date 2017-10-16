@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/vectorkMergeSortedArrays.dir/main.cpp.o  -o vectorkMergeSortedArrays 
