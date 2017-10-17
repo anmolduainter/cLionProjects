@@ -1,0 +1,3 @@
+/home/anmol/CLionProjects/SPOJ/Candy-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anmol/CLionProjects/SPOJ/Candy-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anmol/CLionProjects/SPOJ/Candy-1/cmake-build-debug/CMakeFiles/Candy_1.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/NumberStepsPattern.dir/main.cpp.o  -o NumberStepsPattern 

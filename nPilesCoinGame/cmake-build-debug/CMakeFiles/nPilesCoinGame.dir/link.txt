@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/nPilesCoinGame.dir/main.cpp.o  -o nPilesCoinGame 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Whats_sNext.dir/main.cpp.o  -o Whats_sNext 
