@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/TargetSumPairs.dir/main.cpp.o  -o TargetSumPairs 

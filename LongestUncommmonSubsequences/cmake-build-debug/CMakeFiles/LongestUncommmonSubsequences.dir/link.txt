@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/LongestUncommmonSubsequences.dir/main.cpp.o  -o LongestUncommmonSubsequences 
