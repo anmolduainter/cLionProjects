@@ -4,13 +4,16 @@ using namespace std;
 
 void PrintAll(long long int a[],long long int n,long long int sum){
 
-    if (n==1){
-        return;
-    }
+    sort(a,a+n);
+
 
     for (long long int i = 0; i < n-1 ; ++i) {
 
         for (long long int j = i+1; j < n ; ++j) {
+
+            if (a[j]==sum){
+                break;
+            }
 
             if (a[i]+a[j]==sum){
                 cout<<a[i]<<" and "<<a[j]<<endl;

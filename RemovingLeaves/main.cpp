@@ -40,40 +40,15 @@
         if (root==NULL){
             return "END";
         }
+        string sR=PrintPreOrder(root->right);
         string sL=PrintPreOrder(root->left);
         string s=to_string(root->data);
-        string sR=PrintPreOrder(root->right);
         string out=sL + " => " + s + " <= " + sR;
-        cout<<out<<endl;
+        v.push_back(out);
+        // cout<<out<<endl
         return s;
     }
 
-    void Print(Node* root){
-
-        if (root==NULL){
-            return;
-        }
-
-        if (root->left==NULL && root->right==NULL){
-            cout<<" END => "<<root->data<<" <= END"<<endl;
-            return;
-        }
-
-        if (root->left==NULL){
-            cout<<" END => "<<root->data<<" <= "<<root->right->data<<endl;
-            Print(root->right);
-        }
-
-        if (root->right==NULL){
-            cout<<root->left->data<<" => "<<root->data<<" <= END"<<endl;
-            Print(root->left);
-        }
-        if (root->left!=NULL && root->right!=NULL){
-            cout<<root->left->data<<" => "<<root->data<<" <= "<<root->right->data<<endl;
-            Print(root->left);
-            Print(root->right);
-        }
-    }
 
     void printVector(){
         for (int i = 0; i < v.size() ; ++i) {
@@ -86,9 +61,14 @@
         if (root==NULL){
             return;
         }
+
         if (root->left==NULL && root->right==NULL){
-            root->parent->left=NULL;
-            root->parent->right=NULL;
+            if(root->parent->left==root){
+                root->parent->left=NULL;
+            }
+            if (root->parent->right==root){
+                root->parent->right=NULL;
+            }
         }
 
         RemoveLeaves(root->left);
@@ -102,8 +82,8 @@
        // PrintPreOrder(root);
         cout<<endl;
         RemoveLeaves(root);
-        Print(root);
-       // PrintPreOrder(root);
-       // printVector();
+       // Print(root);
+        PrintPreOrder(root);
+        printVector();
 
     }

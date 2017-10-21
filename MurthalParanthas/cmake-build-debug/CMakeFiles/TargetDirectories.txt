@@ -1,0 +1,3 @@
+/home/anmol/CLionProjects/MurthalParanthas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anmol/CLionProjects/MurthalParanthas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anmol/CLionProjects/MurthalParanthas/cmake-build-debug/CMakeFiles/MurthalParanthas.dir

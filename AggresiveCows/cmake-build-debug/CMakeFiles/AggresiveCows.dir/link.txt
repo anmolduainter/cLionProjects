@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/AggresiveCows.dir/main.cpp.o  -o AggresiveCows 
